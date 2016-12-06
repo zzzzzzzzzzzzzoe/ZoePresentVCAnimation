@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FC264A1DF6981C00CBDBFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26491DF6981C00CBDBFF /* main.m */; };
+		04FC264D1DF6981C00CBDBFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC264C1DF6981C00CBDBFF /* AppDelegate.m */; };
+		04FC26501DF6981C00CBDBFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC264F1DF6981C00CBDBFF /* ViewController.m */; };
+		04FC26531DF6981C00CBDBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26511DF6981C00CBDBFF /* Main.storyboard */; };
+		04FC26551DF6981C00CBDBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26541DF6981C00CBDBFF /* Assets.xcassets */; };
+		04FC26581DF6981C00CBDBFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26561DF6981C00CBDBFF /* LaunchScreen.storyboard */; };
+		04FC26631DF6981D00CBDBFF /* ZoePresentVCAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26621DF6981D00CBDBFF /* ZoePresentVCAnimationTests.m */; };
+		04FC266E1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266D1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FC265F1DF6981C00CBDBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FC263D1DF6981C00CBDBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FC26441DF6981C00CBDBFF;
+			remoteInfo = ZoePresentVCAnimation;
+		};
+		04FC266A1DF6981D00CBDBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FC263D1DF6981C00CBDBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FC26441DF6981C00CBDBFF;
+			remoteInfo = ZoePresentVCAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FC26451DF6981C00CBDBFF /* ZoePresentVCAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoePresentVCAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC26491DF6981C00CBDBFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FC264B1DF6981C00CBDBFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FC264C1DF6981C00CBDBFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FC264E1DF6981C00CBDBFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04FC264F1DF6981C00CBDBFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04FC26521DF6981C00CBDBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FC26541DF6981C00CBDBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FC26571DF6981C00CBDBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FC26591DF6981C00CBDBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC265E1DF6981C00CBDBFF /* ZoePresentVCAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoePresentVCAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC26621DF6981D00CBDBFF /* ZoePresentVCAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoePresentVCAnimationTests.m; sourceTree = "<group>"; };
+		04FC26641DF6981D00CBDBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC26691DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoePresentVCAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC266D1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoePresentVCAnimationUITests.m; sourceTree = "<group>"; };
+		04FC266F1DF6981D00CBDBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FC26421DF6981C00CBDBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC265B1DF6981C00CBDBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC26661DF6981D00CBDBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FC263C1DF6981C00CBDBFF = {
+			isa = PBXGroup;
+			children = (
+				04FC26471DF6981C00CBDBFF /* ZoePresentVCAnimation */,
+				04FC26611DF6981D00CBDBFF /* ZoePresentVCAnimationTests */,
+				04FC266C1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests */,
+				04FC26461DF6981C00CBDBFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FC26461DF6981C00CBDBFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FC26451DF6981C00CBDBFF /* ZoePresentVCAnimation.app */,
+				04FC265E1DF6981C00CBDBFF /* ZoePresentVCAnimationTests.xctest */,
+				04FC26691DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FC26471DF6981C00CBDBFF /* ZoePresentVCAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04FC264B1DF6981C00CBDBFF /* AppDelegate.h */,
+				04FC264C1DF6981C00CBDBFF /* AppDelegate.m */,
+				04FC264E1DF6981C00CBDBFF /* ViewController.h */,
+				04FC264F1DF6981C00CBDBFF /* ViewController.m */,
+				04FC26511DF6981C00CBDBFF /* Main.storyboard */,
+				04FC26541DF6981C00CBDBFF /* Assets.xcassets */,
+				04FC26561DF6981C00CBDBFF /* LaunchScreen.storyboard */,
+				04FC26591DF6981C00CBDBFF /* Info.plist */,
+				04FC26481DF6981C00CBDBFF /* Supporting Files */,
+			);
+			path = ZoePresentVCAnimation;
+			sourceTree = "<group>";
+		};
+		04FC26481DF6981C00CBDBFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FC26491DF6981C00CBDBFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FC26611DF6981D00CBDBFF /* ZoePresentVCAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FC26621DF6981D00CBDBFF /* ZoePresentVCAnimationTests.m */,
+				04FC26641DF6981D00CBDBFF /* Info.plist */,
+			);
+			path = ZoePresentVCAnimationTests;
+			sourceTree = "<group>";
+		};
+		04FC266C1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04FC266D1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.m */,
+				04FC266F1DF6981D00CBDBFF /* Info.plist */,
+			);
+			path = ZoePresentVCAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FC26441DF6981C00CBDBFF /* ZoePresentVCAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC26721DF6981D00CBDBFF /* Build configuration list for PBXNativeTarget "ZoePresentVCAnimation" */;
+			buildPhases = (
+				04FC26411DF6981C00CBDBFF /* Sources */,
+				04FC26421DF6981C00CBDBFF /* Frameworks */,
+				04FC26431DF6981C00CBDBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoePresentVCAnimation;
+			productName = ZoePresentVCAnimation;
+			productReference = 04FC26451DF6981C00CBDBFF /* ZoePresentVCAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FC265D1DF6981C00CBDBFF /* ZoePresentVCAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC26751DF6981D00CBDBFF /* Build configuration list for PBXNativeTarget "ZoePresentVCAnimationTests" */;
+			buildPhases = (
+				04FC265A1DF6981C00CBDBFF /* Sources */,
+				04FC265B1DF6981C00CBDBFF /* Frameworks */,
+				04FC265C1DF6981C00CBDBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FC26601DF6981C00CBDBFF /* PBXTargetDependency */,
+			);
+			name = ZoePresentVCAnimationTests;
+			productName = ZoePresentVCAnimationTests;
+			productReference = 04FC265E1DF6981C00CBDBFF /* ZoePresentVCAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FC26681DF6981D00CBDBFF /* ZoePresentVCAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC26781DF6981D00CBDBFF /* Build configuration list for PBXNativeTarget "ZoePresentVCAnimationUITests" */;
+			buildPhases = (
+				04FC26651DF6981D00CBDBFF /* Sources */,
+				04FC26661DF6981D00CBDBFF /* Frameworks */,
+				04FC26671DF6981D00CBDBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FC266B1DF6981D00CBDBFF /* PBXTargetDependency */,
+			);
+			name = ZoePresentVCAnimationUITests;
+			productName = ZoePresentVCAnimationUITests;
+			productReference = 04FC26691DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FC263D1DF6981C00CBDBFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04FC26441DF6981C00CBDBFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					04FC265D1DF6981C00CBDBFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04FC26441DF6981C00CBDBFF;
+					};
+					04FC26681DF6981D00CBDBFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04FC26441DF6981C00CBDBFF;
+					};
+				};
+			};
+			buildConfigurationList = 04FC26401DF6981C00CBDBFF /* Build configuration list for PBXProject "ZoePresentVCAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FC263C1DF6981C00CBDBFF;
+			productRefGroup = 04FC26461DF6981C00CBDBFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FC26441DF6981C00CBDBFF /* ZoePresentVCAnimation */,
+				04FC265D1DF6981C00CBDBFF /* ZoePresentVCAnimationTests */,
+				04FC26681DF6981D00CBDBFF /* ZoePresentVCAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FC26431DF6981C00CBDBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC26581DF6981C00CBDBFF /* LaunchScreen.storyboard in Resources */,
+				04FC26551DF6981C00CBDBFF /* Assets.xcassets in Resources */,
+				04FC26531DF6981C00CBDBFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC265C1DF6981C00CBDBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC26671DF6981D00CBDBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FC26411DF6981C00CBDBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC26501DF6981C00CBDBFF /* ViewController.m in Sources */,
+				04FC264D1DF6981C00CBDBFF /* AppDelegate.m in Sources */,
+				04FC264A1DF6981C00CBDBFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC265A1DF6981C00CBDBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC26631DF6981D00CBDBFF /* ZoePresentVCAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC26651DF6981D00CBDBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC266E1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FC26601DF6981C00CBDBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FC26441DF6981C00CBDBFF /* ZoePresentVCAnimation */;
+			targetProxy = 04FC265F1DF6981C00CBDBFF /* PBXContainerItemProxy */;
+		};
+		04FC266B1DF6981D00CBDBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FC26441DF6981C00CBDBFF /* ZoePresentVCAnimation */;
+			targetProxy = 04FC266A1DF6981D00CBDBFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FC26511DF6981C00CBDBFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FC26521DF6981C00CBDBFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FC26561DF6981C00CBDBFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FC26571DF6981C00CBDBFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FC26701DF6981D00CBDBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FC26711DF6981D00CBDBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FC26731DF6981D00CBDBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoePresentVCAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoePresentVCAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04FC26741DF6981D00CBDBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoePresentVCAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoePresentVCAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04FC26761DF6981D00CBDBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZoePresentVCAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoePresentVCAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoePresentVCAnimation.app/ZoePresentVCAnimation";
+			};
+			name = Debug;
+		};
+		04FC26771DF6981D00CBDBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZoePresentVCAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoePresentVCAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoePresentVCAnimation.app/ZoePresentVCAnimation";
+			};
+			name = Release;
+		};
+		04FC26791DF6981D00CBDBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZoePresentVCAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoePresentVCAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZoePresentVCAnimation;
+			};
+			name = Debug;
+		};
+		04FC267A1DF6981D00CBDBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZoePresentVCAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoePresentVCAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZoePresentVCAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FC26401DF6981C00CBDBFF /* Build configuration list for PBXProject "ZoePresentVCAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC26701DF6981D00CBDBFF /* Debug */,
+				04FC26711DF6981D00CBDBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FC26721DF6981D00CBDBFF /* Build configuration list for PBXNativeTarget "ZoePresentVCAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC26731DF6981D00CBDBFF /* Debug */,
+				04FC26741DF6981D00CBDBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FC26751DF6981D00CBDBFF /* Build configuration list for PBXNativeTarget "ZoePresentVCAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC26761DF6981D00CBDBFF /* Debug */,
+				04FC26771DF6981D00CBDBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FC26781DF6981D00CBDBFF /* Build configuration list for PBXNativeTarget "ZoePresentVCAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC26791DF6981D00CBDBFF /* Debug */,
+				04FC267A1DF6981D00CBDBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FC263D1DF6981C00CBDBFF /* Project object */;
+}
