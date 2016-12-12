@@ -25,3 +25,6 @@
     return self.transition;
 }
 ```
+
+##演示图
+![](https://github.com/zzzzzzzzzzzzzoe/ZoePresentVCAnimation/blob/master/gifFile/dog.gif)
