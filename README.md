@@ -27,4 +27,5 @@
 ```
 
 ##演示图
+图片较大，可以下载demo查看
 ![](https://github.com/zzzzzzzzzzzzzoe/ZoePresentVCAnimation/blob/master/gifFile/dog.gif)
