@@ -15,6 +15,9 @@
 		04FC26581DF6981C00CBDBFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26561DF6981C00CBDBFF /* LaunchScreen.storyboard */; };
 		04FC26631DF6981D00CBDBFF /* ZoePresentVCAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26621DF6981D00CBDBFF /* ZoePresentVCAnimationTests.m */; };
 		04FC266E1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266D1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.m */; };
+		04FC267C1DF69E9800CBDBFF /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FC267B1DF69E9800CBDBFF /* dog.jpg */; };
+		04FC267F1DF6A30700CBDBFF /* ZoeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC267E1DF6A30700CBDBFF /* ZoeTransition.m */; };
+		04FC26821DF6AFCD00CBDBFF /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26811DF6AFCD00CBDBFF /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		04FC26691DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoePresentVCAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC266D1DF6981D00CBDBFF /* ZoePresentVCAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoePresentVCAnimationUITests.m; sourceTree = "<group>"; };
 		04FC266F1DF6981D00CBDBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC267B1DF69E9800CBDBFF /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		04FC267D1DF6A30700CBDBFF /* ZoeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoeTransition.h; sourceTree = "<group>"; };
+		04FC267E1DF6A30700CBDBFF /* ZoeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoeTransition.m; sourceTree = "<group>"; };
+		04FC26801DF6AFCD00CBDBFF /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		04FC26811DF6AFCD00CBDBFF /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,15 @@
 		04FC26471DF6981C00CBDBFF /* ZoePresentVCAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				04FC267B1DF69E9800CBDBFF /* dog.jpg */,
 				04FC264B1DF6981C00CBDBFF /* AppDelegate.h */,
 				04FC264C1DF6981C00CBDBFF /* AppDelegate.m */,
 				04FC264E1DF6981C00CBDBFF /* ViewController.h */,
 				04FC264F1DF6981C00CBDBFF /* ViewController.m */,
+				04FC267D1DF6A30700CBDBFF /* ZoeTransition.h */,
+				04FC267E1DF6A30700CBDBFF /* ZoeTransition.m */,
+				04FC26801DF6AFCD00CBDBFF /* ImageViewController.h */,
+				04FC26811DF6AFCD00CBDBFF /* ImageViewController.m */,
 				04FC26511DF6981C00CBDBFF /* Main.storyboard */,
 				04FC26541DF6981C00CBDBFF /* Assets.xcassets */,
 				04FC26561DF6981C00CBDBFF /* LaunchScreen.storyboard */,
@@ -246,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FC267C1DF69E9800CBDBFF /* dog.jpg in Resources */,
 				04FC26581DF6981C00CBDBFF /* LaunchScreen.storyboard in Resources */,
 				04FC26551DF6981C00CBDBFF /* Assets.xcassets in Resources */,
 				04FC26531DF6981C00CBDBFF /* Main.storyboard in Resources */,
@@ -273,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FC26821DF6AFCD00CBDBFF /* ImageViewController.m in Sources */,
 				04FC26501DF6981C00CBDBFF /* ViewController.m in Sources */,
 				04FC264D1DF6981C00CBDBFF /* AppDelegate.m in Sources */,
 				04FC264A1DF6981C00CBDBFF /* main.m in Sources */,
+				04FC267F1DF6A30700CBDBFF /* ZoeTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

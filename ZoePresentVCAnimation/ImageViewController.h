@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ImageViewController : UIViewController
-
+@property (nonatomic,strong) UIImageView * bgImageView;
+@property (nonatomic,strong) UIImage * BgImage;
 @end
